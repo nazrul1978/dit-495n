@@ -1,0 +1,70 @@
+/*universal selector*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+/*element selector*/
+body{
+    background-color: aqua;
+}
+/*id selector*/
+#admin-box{
+    background-color: darkgreen;
+    text-align: center;
+    width: 50%;
+    margin: 10% auto;
+    padding: 20px;
+}
+/*Class selector*/
+.heading{
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 30px;
+}
+/*Grouping selector*/
+input,
+label{
+    display:block;
+    width: 80%;
+    margin: auto;
+}
+label{
+    font-size: 20px;
+    line-height: 20px;
+    margin: 10px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+input{
+    padding: 10px;
+    background-color: brown;
+    border: 3px solid black;
+    font-size: 17px;
+}
+
+    /*psude elemant eslector*/
+input::placeholder{
+    color: black;
+    font-size: 17px;
+
+}
+/*atribute selector*/
+input[type="submit"]{
+    background-color: aqua;
+    width: 50%;
+    margin-top: 20px;
+}
+P{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+
+}
+input[value]{
+    text-align: center;
+
+}
